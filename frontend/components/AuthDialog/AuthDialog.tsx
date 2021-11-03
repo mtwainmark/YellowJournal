@@ -33,7 +33,7 @@ export const AuthDialog : React.FC<AuthDialogProps> = ({visible, onClose}) => {
                     {formType === 'main' &&
                     <>
                         <div>
-                            <Button onClick={() => setFormType('email')} className='mb-10' variant='contained' fullWidth>Почта</Button>
+                            <Button onClick={() => setFormType('login')} className='mb-10' variant='contained' fullWidth>Почта</Button>
                             <Button className='mb-10' variant='contained' fullWidth>Вконтакте</Button>
                             <Button className='mb-10' variant='contained' fullWidth>Google</Button>
                         </div>
